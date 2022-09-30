@@ -3,7 +3,6 @@ on:
   pull_request: 
     branches: [ main ]
     types: [ opened, synchronize, closed]
-name: release-please
 jobs:
   release-please:
     runs-on: ubuntu-latest
