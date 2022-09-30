@@ -1,7 +1,8 @@
-on:
-  push:
-    branches:
-      - main
+name : production environment CI & Versioning
+on: 
+  pull_request: 
+    branches: [ main ]
+    types: [ opened, synchronize, closed]
 name: release-please
 jobs:
   release-please:
