@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/chenlitchian/test/compare/v1.0.0...v1.0.1) (2022-09-30)
+
+
+### Performance Improvements
+
+* Test for actions ([bb6b4a0](https://github.com/chenlitchian/test/commit/bb6b4a07bd890b5fd08255292f91a91c8a40f14c))
+
 ## 1.0.0 (2022-09-30)
 
 
