@@ -1,8 +1,8 @@
-on:
-  push:
-    branches:
-      - main
-name: release-please
+name : production environment CI & Versioning
+on: 
+  pull_request: 
+    branches: [ main ]
+    types: [ opened, synchronize, closed]
 jobs:
   release-please:
     runs-on: ubuntu-latest
